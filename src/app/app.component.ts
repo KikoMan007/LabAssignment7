@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ToastService } from './toast/toast.service';
+import { AnonymousSubject } from 'rxjs/internal/Subject';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'toast-app';
-}
+
+  }
+
+
+
+
